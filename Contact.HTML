@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/css2.css">
+    <script src="./JS/Final.JS"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section class="navbar">
+            <h2 class="navbar name">Philip Nestler</h2>
+            <nav class="navbar nav">
+                <ul class="navbar nav links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Gallery.HTML">Gallery</a></li>
+                    <li><a class="selected" href="Contact.HTML">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="Gallery.HTML">Gallery</a>
+                    <a class="selected" href="Contact.HTML">Contact</a>
+                </div>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </section>
+    </header>
+    <section class="container1">
+        <section class="container2">
+            <section class="contactinfo">
+                <div>
+                    <h2>Contact info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="./Images/location.png"></span>
+                            <span> 202 31st st se <br> Altoona, IA<br>50009</span>
+                        </li>
+                        <li>
+                            <span><img src="./Images/mail.png"></span>
+                            <span>Chairwielder03@gmail.com</span>
+                        </li>
+                        <li>
+                            <span><img src="./Images/call.png"></span>
+                            <span> +1 515-357-3364</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="#"><img src="./Images/1.png"></a></li>
+                    <li><a href="#"><img src="./Images/2.png"></a></li>
+                    <li><a href="#"><img src="./Images/3.png"></a></li>
+                    <li><a href="#"><img src="./Images/4.png"></a></li>
+                </ul>
+            </section>
+            <section class="contactform">
+                <h2>Send a Message</h2>
+                <div class="formBox">
+                    <div class="inputBox w1">
+                        <input type="text" required placeholder="John">
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w1">
+                        <input type="text" required placeholder="Doe">
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w1">
+                        <input required placeholder="Johndoe@gmail.com">
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w1">
+                        <input type="text" required placeholder="+1 515 - 332 - 3333">
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w2">
+                        <textarea required></textarea>
+                        <span>Write your message here . . .</span>
+                    </div>
+                    <div class="inputBox w2">
+                        <input id="Send" type="submit" value="Send" required>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <footer>
+        <section class="namedate">
+            <h4>Philip Nestler</h4>
+            <h5>2023@</h5>
+        </section>
+        <section class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://twitter.com/Chairwielder"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+
+
+
+        </section>
+    </footer>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</html>
